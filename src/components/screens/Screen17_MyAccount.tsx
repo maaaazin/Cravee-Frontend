@@ -51,7 +51,7 @@ export const Screen17_MyAccount: React.FC<Props> = ({ onNavigate }) => {
             <div className="flex items-start gap-3.5">
               <div className="relative shrink-0">
                 <img
-                  alt="Maazin Shah"
+                  alt="Aarav Mehta"
                   className="w-20 h-20 rounded-full object-cover shadow-md"
                   src="https://lh3.googleusercontent.com/aida-public/AB6AXuD51EmdIaKp0cDQ0XFDoQR-23XvBWWI0E0yvKKBNgVurDX_r2hOxN9fvl4ZNlcsSKoSUWhkPfoWI7h7KvnW5dAbHQQulcHfAG5vggaDGgn3mwYhsK6YUPnJkwpHpeFO48tlY_hhJjUvwNMD2HMgFOBViYrApLpqWcjHJQhIzlwmh2bPQ3VTSc21WHpV1C1FWmKw-QQJLBTjEHgfuQwr4U4hQBAomNcU7cXgfjWnmiBE-Iw_ZPDy113j"
                 />
@@ -65,7 +65,7 @@ export const Screen17_MyAccount: React.FC<Props> = ({ onNavigate }) => {
               </div>
               <div className="flex-1 min-w-0 flex flex-col justify-center">
                 <div className="flex items-center justify-between gap-1">
-                  <h2 className="font-headline-md text-headline-md text-[#191c1d] truncate">Maazin Shah</h2>
+                  <h2 className="font-headline-md text-headline-md text-[#191c1d] truncate">Aarav Mehta</h2>
                   <button
                     className="shrink-0 text-[#855300] font-label-md text-label-md active:opacity-75 transition-opacity px-2 py-1 rounded-lg hover:bg-[#ffddb8]/30 font-semibold cursor-pointer"
                     type="button"
@@ -73,7 +73,7 @@ export const Screen17_MyAccount: React.FC<Props> = ({ onNavigate }) => {
                     Edit
                   </button>
                 </div>
-                <p className="font-body-sm text-body-sm text-[#45464c] truncate mt-0.5">maazin.shah@example.com</p>
+                <p className="font-body-sm text-body-sm text-[#45464c] truncate mt-0.5">aarav.mehta@example.com</p>
                 <p className="font-body-sm text-body-sm text-[#45464c] truncate">+91 98201 23456</p>
                 <div className="mt-2 flex items-center">
                   <span className="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-[#ffddb8] text-[#2a1700] font-label-sm text-label-sm font-semibold shadow-xs">

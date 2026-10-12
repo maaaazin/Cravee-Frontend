@@ -7,8 +7,8 @@ interface Props {
 }
 
 export const Screen4_SignUp: React.FC<Props> = ({ onNavigate }) => {
-  const [fullName, setFullName] = useState('Maazin Shah');
-  const [email, setEmail] = useState('maazin.shah@example.com');
+  const [fullName, setFullName] = useState('Aarav Mehta');
+  const [email, setEmail] = useState('aarav.mehta@example.com');
   const [phone, setPhone] = useState('98201 23456');
   const [password, setPassword] = useState('secretpass');
   const [confirmPassword, setConfirmPassword] = useState('secretpass');
@@ -72,7 +72,7 @@ export const Screen4_SignUp: React.FC<Props> = ({ onNavigate }) => {
                 <input
                   className="w-full h-12 bg-[#f3f4f5] text-[#191c1d] font-body-md text-body-md rounded-xl pl-12 pr-4 outline-none placeholder:text-[#76777d] focus:bg-white border border-transparent focus:border-[#e1e3e4] transition-colors"
                   id="fullName"
-                  placeholder="Maazin Shah"
+                  placeholder="Aarav Mehta"
                   type="text"
                   value={fullName}
                   onChange={(e) => setFullName(e.target.value)}
@@ -92,7 +92,7 @@ export const Screen4_SignUp: React.FC<Props> = ({ onNavigate }) => {
                 <input
                   className="w-full h-12 bg-[#f3f4f5] text-[#191c1d] font-body-md text-body-md rounded-xl pl-12 pr-4 outline-none placeholder:text-[#76777d] focus:bg-white border border-transparent focus:border-[#e1e3e4] transition-colors"
                   id="userEmail"
-                  placeholder="maazin.shah@example.com"
+                  placeholder="aarav.mehta@example.com"
                   type="text"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}

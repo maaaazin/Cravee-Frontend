@@ -137,7 +137,7 @@ export const Screen14_SelectPaymentMethod: React.FC<Props> = ({ onNavigate }) =>
                         Default
                       </span>
                     </div>
-                    <span className="font-body-sm text-body-sm text-[#45464c]">maazin@okhdfcbank</span>
+                    <span className="font-body-sm text-body-sm text-[#45464c]">aarav@okhdfcbank</span>
                   </div>
                 </div>
                 <div

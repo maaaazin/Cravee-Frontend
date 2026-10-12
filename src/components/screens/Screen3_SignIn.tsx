@@ -8,7 +8,7 @@ interface Props {
 
 export const Screen3_SignIn: React.FC<Props> = ({ onNavigate }) => {
   const [showPassword, setShowPassword] = useState(false);
-  const [email, setEmail] = useState('maazin.shah@example.com');
+  const [email, setEmail] = useState('aarav.mehta@example.com');
   const [password, setPassword] = useState('gastronome123');
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -72,7 +72,7 @@ export const Screen3_SignIn: React.FC<Props> = ({ onNavigate }) => {
                   autoComplete="username"
                   className="w-full bg-transparent font-body-md text-body-md text-[#191c1d] placeholder:text-[#76777d] outline-none"
                   id="identity-input"
-                  placeholder="maazin.shah@example.com"
+                  placeholder="aarav.mehta@example.com"
                   type="text"
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
