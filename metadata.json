@@ -1,0 +1,6 @@
+{
+  "name": "Cravee - Gourmet Food Delivery",
+  "description": "Discover curated culinary journeys, artisan kitchens, and express gourmet food delivery with live order tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
